@@ -1,4 +1,5 @@
-# line-diff
+# line-diff [![npm version](https://badge.fury.io/js/%40rokt33r%2Fline-diff.svg)](http://badge.fury.io/js/%40rokt33r%2Fline-diff) [![Travis CI](https://travis-ci.org/Rokt33r/line-diff.svg?branch=master)](https://travis-ci.org/Rokt33r/line-diff)
+
 
 A simple line diff/patch module with [Google diff_match_patch](https://code.google.com/p/google-diff-match-patch/)
 
