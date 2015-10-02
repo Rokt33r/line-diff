@@ -46,7 +46,7 @@ module.exports = function (options) {
     if (Array.isArray(patch)) {
       return patch.reduce(function (result, aPatch, index) {
         try {
-          if (typeof patch !== 'string') throw new InvalidPatchError('Patch at ' + index + ' is not a String')
+          if (typeof aPatch !== 'string') throw new InvalidPatchError('Patch at ' + index + ' is not a String')
 
           result = applyOnce(result, aPatch)
         } catch (e) {
